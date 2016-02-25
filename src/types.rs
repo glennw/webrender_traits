@@ -185,6 +185,7 @@ pub enum ImageFormat {
     A8,
     RGB8,
     RGBA8,
+    RGBA32F,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash, Serialize, Deserialize)]
